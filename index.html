@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Import main CSS file -->
+        <link rel="stylesheet" href="/5.1 Home/css/main.css">
+
+
+    </head>
+    <body>
+
+        <!-- Nav Start -->
+        <div class="nav" id="myTopnav">
+          <!-- Add logo image -->
+            <img src="/5.1 Home/assests/newlogo.png" alt="Logo">
+            <a href="#home" class="hidden"></a> 
+            <a href="#home" class="hidden"></a> 
+            <!-- Hidden button to push down home link on the 
+            dropdown menu as made logo bigger-->
+
+            <!-- Add Home and Categories links -->
+            <a href="./index.html" class="button">Home</a>
+            <a href="./catergories.html" class="button">Categories</a>
+  
+            <!-- <div class="search-container">
+                <input type="text" placeholder="Search For Recipes" id="search-input">
+                <button type="button" id="search-button">Search</button>
+            </div> 
+            Planned to make a search button but didnt have enough time-->
+
+            <!-- Add hamburger icon for responsive design -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+        <!-- Script for hamburger icon  Start-->
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "nav") {
+                x.className += " responsive";
+              } else {
+                x.className = "nav";
+              }
+            }
+            </script>
+            <!-- Script for hamburger icon End -->
+        <!-- Nav End -->
+        
+
+
+
+        <!-- Home Start -->
+        <div class="home-container">
+          <!-- Add image for home page -->
+            <img src="/5.1 Home/assests/HomeImage.png" alt="WelcomePageImage">
+            <div class="home-text-container">
+              <!-- Add welcome message -->
+              <h2>Welcome To FoodFormulas</h2>
+              <p>Anything recipes and we have it!</p>
+            </div>
+          </div>
+          <!-- Home End -->
+
+          <!-- Category Start -->
+          <h4>Featured Recipes</h4>
+          <div class="categories-container">
+            <!-- Add link and image for Chicken Soup recipe -->
+			      <a href="/5.1 Home/html/recipe1-chickensoup.html" class="category">
+				      <img src="/5.1 Home/assests/chickensoup.jpg" alt="Chick Soup" class="category-image">
+              <h3 class="category-title">Chicken Soup</h3>
+            </a>
+            <!-- Add link and image for Lasagna recipe -->
+            <a href="/5.1 Home/html/recipe8-lasagna.html" class="category">
+              <img src="/5.1 Home/assests/Lasagna.jpg" alt="Lasagna" class="category-image">
+              <h3 class="category-title">Lasagna</h3>
+            </a>
+            <!-- Add link and image for Pancakes recipe -->
+            <a href="/5.1 Home/html/recipe6-pancakes.html" class="category">
+              <img src="/5.1 Home/assests/pancake.jpg" alt="Pancakes" class="category-image">
+              <h3 class="category-title">Panacakes</h3>
+            </a>
+            <!-- Add link and image for Chicken Fried Rice recipe -->
+            <a href="/5.1 Home/html/recipe3-chickenrice.html" class="category">
+              <img src="/5.1 Home/assests/chickenfriedrice.jpg" alt="Chicken Fried Rice" class="category-image">
+              <h3 class="category-title">Chicken Fried Rice</h3>
+            </a>
+          </div>
+        <!-- Category End -->
+
+        <!-- Footer Starts -->
+        <footer>
+          <!-- Title -->
+            <h4>FoodFormulas by Ethan Kellie</h4>
+            <nav>
+              <!-- Add links to home and categories pages -->
+              <a href="./index.html" class="home">Home</a>
+              <a href="./catergories.html" class="contact">Categories</a>
+            </nav>
+          </footer>    
+        <!-- Footer End -->
+    </body>
+</html>
