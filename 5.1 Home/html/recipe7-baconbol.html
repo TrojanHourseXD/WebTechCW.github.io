@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/5.1 Home/css/main.css">
+
+
+    </head>
+    <body>
+
+        <!-- Nav Start -->
+        <div class="nav" id="myTopnav">
+          <!-- Add logo image -->
+            <img src="/5.1 Home/assests/newlogo.png" alt="Logo">
+            <a href="#home" class="hidden"></a> 
+            <a href="#home" class="hidden"></a> 
+            <!-- Hidden button to push down home link on the 
+            dropdown menu as made logo bigger-->
+
+            <!-- Add Home and Categories links -->
+            <a href="./index.html" class="button">Home</a>
+            <a href="./catergories.html" class="button">Categories</a>
+  
+            <!-- <div class="search-container">
+                <input type="text" placeholder="Search For Recipes" id="search-input">
+                <button type="button" id="search-button">Search</button>
+            </div> 
+            Planned to make a search button but didnt have enough time-->
+
+            <!-- Add hamburger icon for responsive design -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+        <!-- Script for hamburger icon  Start-->
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "nav") {
+                x.className += " responsive";
+              } else {
+                x.className = "nav";
+              }
+            }
+            </script>
+            <!-- Script for hamburger icon End -->
+        <!-- Nav End -->
+        
+        <!-- Recipe Start -->
+        <div class="recipe">
+            <h1 class="recipe-title">Bacon Bolognese</h1>
+            <p>Rich and hearty bacon bolognese, perfect for a cozy dinner.</p>
+            <img src="/5.1 Home/assests/baconbol.jpeg" alt="Bacon Bolognese" class="recipe-image">
+        
+            <table class="prep-time">
+              <tr>
+                <th>Prep Time</th>
+                <th>Cook Time</th>
+                <th>Total Time</th>
+              </tr>
+              <tr>
+                <td>15 minutes</td>
+                <td>45 minutes</td>
+                <td>1 hour</td>
+              </tr>
+              <tr>
+                <th>Amount Served</th>
+                <th></th>
+                <th></th>
+              </tr>
+              <tr>
+                <td>4-6 people</td>
+                <td></td>
+                <td></td>
+              </tr>
+            </table>
+        
+            <h2 class="Equipment">Equipment Needed:</h2>
+            <ul class="recipe-tools">
+              <li>Large pot</li>
+              <li>Large skillet</li>
+              <li>Cutting board</li>
+              <li>Knife</li>
+              <li>Wooden spoon</li>
+            </ul>
+        
+            <div class="ingredients-section">
+              <h2 class="ingredients-title">Ingredients:</h2>
+              <ul class="recipe-ingredients">
+                <li>1 lb ground beef</li>
+                <li>1/2 lb bacon, chopped</li>
+                <li>1 onion, chopped</li>
+                <li>2 garlic cloves, minced</li>
+                <li>1 can (28 oz) crushed tomatoes</li>
+                <li>1/2 cup red wine</li>
+                <li>1 tbsp tomato paste</li>
+                <li>1 tbsp sugar</li>
+                <li>1/2 tsp dried oregano</li>
+                <li>1/4 tsp red pepper flakes</li>
+                <li>Salt and pepper, to taste</li>
+                <li>1 lb spaghetti</li>
+                <li>Grated Parmesan cheese, for serving</li>
+              </ul>
+            </div>
+        
+            <h2 class="recipe-section-title">Instructions:</h2>
+            <ol class="recipe-instructions">
+              <li>Cook the spaghetti according to the package directions. Drain and set aside.</li>
+              <li>In a large skillet over medium heat, cook the chopped bacon until crispy. Remove the bacon from the skillet and set aside on a paper towel-lined plate.</li>
+              <li>Add the ground beef to the skillet and cook until browned and cooked through, breaking it up with a wooden spoon as it cooks.</li>
+              <li>Add the onion and garlic to the skillet and cook until the onion is translucent and the garlic is fragrant.</li>
+              <li>Add the crushed tomatoes, red wine, tomato paste, sugar, oregano, red pepper flakes, salt, and pepper to the skillet. Stir to combine and bring to a simmer.</li>
+              <li>Simmer the bolognese for 30-40 minutes, or until the sauce has thickened and the flavors have melded together.</li>
+              <li>Serve the bolognese over the cooked spaghetti, topped with the crispy bacon and grated Parmesan cheese.</li>
+            </ol>
+        <!-- Recipe end -->
+    </body>
+</html>

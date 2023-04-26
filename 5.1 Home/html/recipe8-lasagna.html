@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/5.1 Home/css/main.css">
+
+
+    </head>
+    <body>
+
+        <!-- Nav Start -->
+        <div class="nav" id="myTopnav">
+          <!-- Add logo image -->
+            <img src="/5.1 Home/assests/newlogo.png" alt="Logo">
+            <a href="#home" class="hidden"></a> 
+            <a href="#home" class="hidden"></a> 
+            <!-- Hidden button to push down home link on the 
+            dropdown menu as made logo bigger-->
+
+            <!-- Add Home and Categories links -->
+            <a href="./index.html" class="button">Home</a>
+            <a href="./catergories.html" class="button">Categories</a>
+  
+            <!-- <div class="search-container">
+                <input type="text" placeholder="Search For Recipes" id="search-input">
+                <button type="button" id="search-button">Search</button>
+            </div> 
+            Planned to make a search button but didnt have enough time-->
+
+            <!-- Add hamburger icon for responsive design -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+        <!-- Script for hamburger icon  Start-->
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "nav") {
+                x.className += " responsive";
+              } else {
+                x.className = "nav";
+              }
+            }
+            </script>
+            <!-- Script for hamburger icon End -->
+        <!-- Nav End -->
+        
+        <!-- Recipe Start -->
+        <div class="recipe">
+            <h1 class="recipe-title">Lasagna</h1>
+            <p>Classic Italian lasagna, perfect for a comforting and delicious dinner.</p>
+            <img src="/5.1 Home/assests/Lasagna.jpg" alt="Lasagna" class="recipe-image">
+        
+            <table class="prep-time">
+              <tr>
+                <th>Prep Time</th>
+                <th>Cook Time</th>
+                <th>Total Time</th>
+              </tr>
+              <tr>
+                <td>30 minutes</td>
+                <td>1 hour 15 minutes</td>
+                <td>1 hour 45 minutes</td>
+              </tr>
+              <tr>
+                <th>Amount Served</th>
+                <th></th>
+                <th></th>
+              </tr>
+              <tr>
+                <td>8-10 people</td>
+                <td></td>
+                <td></td>
+              </tr>
+            </table>
+        
+            <h2 class="Equipment">Equipment Needed:</h2>
+            <ul class="recipe-tools">
+              <li>Large pot</li>
+              <li>Large skillet</li>
+              <li>Baking dish</li>
+              <li>Aluminum foil</li>
+            </ul>
+        
+            <div class="ingredients-section">
+              <h2 class="ingredients-title">Ingredients:</h2>
+              <ul class="recipe-ingredients">
+                <li>1 lb ground beef</li>
+                <li>1 onion, chopped</li>
+                <li>2 garlic cloves, minced</li>
+                <li>1 can (28 oz) crushed tomatoes</li>
+                <li>2 cans (6 oz each) tomato paste</li>
+                <li>2 tsp dried basil</li>
+                <li>1 tsp dried oregano</li>
+                <li>1 tsp salt</li>
+                <li>1/2 tsp black pepper</li>
+                <li>1 box (16 oz) lasagna noodles</li>
+                <li>4 cups shredded mozzarella cheese</li>
+                <li>1 cup grated Parmesan cheese</li>
+                <li>1 container (15 oz) ricotta cheese</li>
+                <li>2 eggs</li>
+                <li>2 tbsp chopped fresh parsley</li>
+              </ul>
+            </div>
+        
+            <h2 class="recipe-section-title">Instructions:</h2>
+            <ol class="recipe-instructions">
+              <li>Cook the lasagna noodles according to the package directions. Drain and set aside.</li>
+              <li>In a large skillet over medium heat, cook the ground beef until browned and cooked through, breaking it up with a wooden spoon as it cooks. Drain any excess fat.</li>
+              <li>Add the onion and garlic to the skillet and cook until the onion is translucent and the garlic is fragrant.</li>
+              <li>Add the crushed tomatoes, tomato paste, basil, oregano, salt, and pepper to the skillet. Stir to combine and bring to a simmer.</li>
+              <li>Simmer the sauce for 30-45 minutes, or until it has thickened and the flavors have melded together.</li>
+              <li>Preheat the oven to 375°F (190°C).</li>
+              <li>In a medium bowl, combine the ricotta cheese, eggs, and chopped parsley. Mix well.</li>
+              <li>Spread a thin layer of the tomato sauce on the bottom of a large baking dish.
+        <!-- Recipe end -->
+    </body>
+</html>

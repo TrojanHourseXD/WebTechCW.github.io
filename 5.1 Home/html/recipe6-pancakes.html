@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/5.1 Home/css/main.css">
+    </head>
+    <body>
+
+        <!-- Nav Start -->
+        <div class="nav" id="myTopnav">
+          <!-- Add logo image -->
+            <img src="/5.1 Home/assests/newlogo.png" alt="Logo">
+            <a href="#home" class="hidden"></a> 
+            <a href="#home" class="hidden"></a> 
+            <!-- Hidden button to push down home link on the 
+            dropdown menu as made logo bigger-->
+
+            <!-- Add Home and Categories links -->
+            <a href="./index.html" class="button">Home</a>
+            <a href="./catergories.html" class="button">Categories</a>
+  
+            <!-- <div class="search-container">
+                <input type="text" placeholder="Search For Recipes" id="search-input">
+                <button type="button" id="search-button">Search</button>
+            </div> 
+            Planned to make a search button but didnt have enough time-->
+
+            <!-- Add hamburger icon for responsive design -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+        <!-- Script for hamburger icon  Start-->
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "nav") {
+                x.className += " responsive";
+              } else {
+                x.className = "nav";
+              }
+            }
+            </script>
+            <!-- Script for hamburger icon End -->
+        <!-- Nav End -->
+
+        <div class="recipe">
+            <h1 class="recipe-title">Pancakes</h1>
+            <p>Fluffy and delicious pancakes, perfect for a lazy weekend breakfast.</p>
+            <img src="/5.1 Home/assests/pancake.jpg" alt="Pancakes" class="recipe-image">
+        
+            <table class="prep-time">
+              <tr>
+                <th>Prep Time</th>
+                <th>Cook Time</th>
+                <th>Total Time</th>
+              </tr>
+              <tr>
+                <td>10 minutes</td>
+                <td>10 minutes</td>
+                <td>20 minutes</td>
+              </tr>
+              <tr>
+                <th>Amount Served</th>
+                <th></th>
+                <th></th>
+              </tr>
+              <tr>
+                <td>4 people</td>
+                <td></td>
+                <td></td>
+              </tr>
+            </table>
+        
+            <h2 class="Equipment">Equipment Needed:</h2>
+            <ul class="recipe-tools">
+              <li>Large bowl</li>
+              <li>Whisk</li>
+              <li>Nonstick skillet or griddle</li>
+              <li>Spatula</li>
+            </ul>
+        
+            <div class="ingredients-section">
+              <h2 class="ingredients-title">Ingredients:</h2>
+              <ul class="recipe-ingredients">
+                <li>1 1/2 cups all-purpose flour</li>
+                <li>3 1/2 tsp baking powder</li>
+                <li>1 tsp salt</li>
+                <li>1 tbsp white sugar</li>
+                <li>1 1/4 cups milk</li>
+                <li>1 egg</li>
+                <li>3 tbsp unsalted butter, melted</li>
+              </ul>
+            </div>
+        
+            <h2 class="recipe-section-title">Instructions:</h2>
+            <ol class="recipe-instructions">
+              <li>In a large bowl, whisk together the flour, baking powder, salt, and sugar.</li>
+              <li>In a separate bowl, whisk together the milk, egg, and melted butter.</li>
+              <li>Pour the wet ingredients into the dry ingredients and whisk until just combined. Do not overmix, as this can make the pancakes tough.</li>
+              <li>Heat a nonstick skillet or griddle over medium heat. Use a ladle or measuring cup to pour batter onto the skillet, making pancakes of the desired size.</li>
+              <li>Cook the pancakes for 2-3 minutes, or until bubbles form on the surface and the edges start to dry. Flip the pancakes and cook for an additional 1-2 minutes on the other side, or until golden brown.</li>
+              <li>Repeat with the remaining batter, greasing the skillet with butter or cooking spray as needed.</li>
+              <li>Serve the pancakes warm with butter, maple syrup, and your favorite toppings.</li>
+            </ol>
+          </div>
+          
+    </body>
+</html>

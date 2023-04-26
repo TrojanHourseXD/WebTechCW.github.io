@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/5.1 Home/css/main.css">
+    </head>
+    <body>
+
+        <!-- Nav Start -->
+        <div class="nav" id="myTopnav">
+          <!-- Add logo image -->
+            <img src="/5.1 Home/assests/newlogo.png" alt="Logo">
+            <a href="#home" class="hidden"></a> 
+            <a href="#home" class="hidden"></a> 
+            <!-- Hidden button to push down home link on the 
+            dropdown menu as made logo bigger-->
+
+            <!-- Add Home and Categories links -->
+            <a href="./index.html" class="button">Home</a>
+            <a href="./catergories.html" class="button">Categories</a>
+  
+            <!-- <div class="search-container">
+                <input type="text" placeholder="Search For Recipes" id="search-input">
+                <button type="button" id="search-button">Search</button>
+            </div> 
+            Planned to make a search button but didnt have enough time-->
+
+            <!-- Add hamburger icon for responsive design -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+        <!-- Script for hamburger icon  Start-->
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "nav") {
+                x.className += " responsive";
+              } else {
+                x.className = "nav";
+              }
+            }
+            </script>
+            <!-- Script for hamburger icon End -->
+        <!-- Nav End -->
+        
+        <!-- Recipe Start -->
+        <div class="recipe">
+            <h1 class="recipe-title">Fried Chicken</h1>
+            <p>Crispy and delicious fried chicken, perfect for a family dinner.</p>
+            <img src="/5.1 Home/assests/friedchicken.jpeg" alt="Fried Chicken" class="recipe-image">
+        
+            <table class="prep-time">
+              <tr>
+                <th>Prep Time</th>
+                <th>Cook Time</th>
+                <th>Total Time</th>
+              </tr>
+              <tr>
+                <td>30 minutes</td>
+                <td>30 minutes</td>
+                <td>1 hour</td>
+              </tr>
+              <tr>
+                <th>Amount Served</th>
+                <th></th>
+                <th></th>
+              </tr>
+              <tr>
+                <td>4-6 people</td>
+                <td></td>
+                <td></td>
+              </tr>
+            </table>
+        
+            <h2 class="Equipment">Equipment Needed:</h2>
+            <ul class="recipe-tools">
+              <li>Large pot or deep fryer</li>
+              <li>Tongs</li>
+              <li>Baking sheet</li>
+              <li>Paper towels</li>
+            </ul>
+        
+            <div class="ingredients-section">
+              <h2 class="ingredients-title">Ingredients:</h2>
+              <ul class="recipe-ingredients">
+                <li>1 whole chicken, cut into 8 pieces</li>
+                <li>2 cups buttermilk</li>
+                <li>2 cups all-purpose flour</li>
+                <li>1 tbsp paprika</li>
+                <li>1 tbsp garlic powder</li>
+                <li>1 tsp cayenne pepper</li>
+                <li>2 tsp salt</li>
+                <li>1 tsp black pepper</li>
+                <li>Vegetable oil, for frying</li>
+              </ul>
+            </div>
+        
+            <h2 class="recipe-section-title">Instructions:</h2>
+            <ol class="recipe-instructions">
+              <li>Place the chicken pieces in a large bowl and pour the buttermilk over them. Cover and refrigerate for at least 30 minutes or up to 24 hours.</li>
+              <li>In a large bowl, combine the flour, paprika, garlic powder, cayenne pepper, salt, and black pepper.</li>
+              <li>Remove the chicken from the buttermilk and let the excess drip off. Coat each piece in the flour mixture, shaking off any excess.</li>
+              <li>In a large pot or deep fryer, heat the oil to 350°F (175°C).</li>
+              <li>Add the chicken pieces, a few at a time, and fry for 12-15 minutes, or until golden brown and cooked through.</li>
+              <li>Use tongs to remove the chicken from the oil and place it on a baking sheet lined with paper towels to drain.</li>
+              <li>Serve hot.</li>
+            </ol>
+          </div>
+        <!-- Recipe end -->
+    </body>
+</html>

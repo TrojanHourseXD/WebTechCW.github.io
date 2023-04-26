@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/5.1 Home/css/main.css">
+
+
+    </head>
+    <body>
+
+        <!-- Nav Start -->
+        <div class="nav" id="myTopnav">
+          <!-- Add logo image -->
+            <img src="/5.1 Home/assests/newlogo.png" alt="Logo">
+            <a href="#home" class="hidden"></a> 
+            <a href="#home" class="hidden"></a> 
+            <!-- Hidden button to push down home link on the 
+            dropdown menu as made logo bigger-->
+
+            <!-- Add Home and Categories links -->
+            <a href="./index.html" class="button">Home</a>
+            <a href="./catergories.html" class="button">Categories</a>
+  
+            <!-- <div class="search-container">
+                <input type="text" placeholder="Search For Recipes" id="search-input">
+                <button type="button" id="search-button">Search</button>
+            </div> 
+            Planned to make a search button but didnt have enough time-->
+
+            <!-- Add hamburger icon for responsive design -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+        <!-- Script for hamburger icon  Start-->
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "nav") {
+                x.className += " responsive";
+              } else {
+                x.className = "nav";
+              }
+            }
+            </script>
+            <!-- Script for hamburger icon End -->
+        <!-- Nav End -->
+        
+        <!-- Recipe Start -->
+        <div class="recipe">
+            <h1 class="recipe-title">Chicken Soup</h1>
+            <p>Warm and comforting chicken soup, perfect for a cold day.</p>
+            <img src="/5.1 Home/assests/chickensoup.jpg" alt="Chicken Soup" class="recipe-image">
+        
+            <table class="prep-time">
+              <tr>
+                <th>Prep Time</th>
+                <th>Cook Time</th>
+                <th>Total Time</th>
+              </tr>
+              <tr>
+                <td>15 minutes</td>
+                <td>1 hour 30 minutes</td>
+                <td>1 hour 45 minutes</td>
+              </tr>
+              <tr>
+                <th>Amount Served</th>
+                <th></th>
+                <th></th>
+              </tr>
+              <tr>
+                <td>6 people</td>
+                <td></td>
+                <td></td>
+              </tr>
+            </table>
+        
+            <h2 class="Equipment">Equipment Needed:</h2>
+            <ul class="recipe-tools">
+              <li>Large pot</li>
+              <li>Knife</li>
+              <li>Cutting board</li>
+              <li>Stirring spoon</li>
+              <li>Ladle</li>
+            </ul>
+        
+            <div class="ingredients-section">
+              <h2 class="ingredients-title">Ingredients:</h2>
+              <ul class="recipe-ingredients">
+                <li>1 whole chicken, cut into pieces</li>
+                <li>8 cups water</li>
+                <li>1 onion, chopped</li>
+                <li>2 carrots, chopped</li>
+                <li>2 celery stalks, chopped</li>
+                <li>1 bay leaf</li>
+                <li>1 tsp dried thyme</li>
+                <li>1 tsp salt</li>
+                <li>1/2 tsp black pepper</li>
+                <li>1 cup egg noodles</li>
+              </ul>
+            </div>
+        
+            <h2 class="recipe-section-title">Instructions:</h2>
+            <ol class="recipe-instructions">
+              <li>In a large pot, combine the chicken, water, onion, carrots, celery, bay leaf, thyme, salt, and pepper. Bring to a boil over high heat.</li>
+              <li>Reduce the heat to low and simmer, uncovered, for 1 hour.</li>
+              <li>Remove the chicken from the pot and let it cool slightly. Discard the skin and bones, and shred the meat. Return the meat to the pot.</li>
+              <li>Add the egg noodles to the pot and simmer for an additional 10-12 minutes, or until the noodles are tender.</li>
+              <li>Remove the bay leaf and serve hot.</li>
+            </ol>
+          </div>
+        <!-- Recipe end -->
+
+
+    </body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/5.1 Home/css/main.css">
+    </head>
+    <body>
+
+        <!-- Nav Start -->
+        <div class="nav" id="myTopnav">
+          <!-- Add logo image -->
+            <img src="/5.1 Home/assests/newlogo.png" alt="Logo">
+            <a href="#home" class="hidden"></a> 
+            <a href="#home" class="hidden"></a> 
+            <!-- Hidden button to push down home link on the 
+            dropdown menu as made logo bigger-->
+
+            <!-- Add Home and Categories links -->
+            <a href="./index.html" class="button">Home</a>
+            <a href="./catergories.html" class="button">Categories</a>
+  
+            <!-- <div class="search-container">
+                <input type="text" placeholder="Search For Recipes" id="search-input">
+                <button type="button" id="search-button">Search</button>
+            </div> 
+            Planned to make a search button but didnt have enough time-->
+
+            <!-- Add hamburger icon for responsive design -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+        <!-- Script for hamburger icon  Start-->
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "nav") {
+                x.className += " responsive";
+              } else {
+                x.className = "nav";
+              }
+            }
+            </script>
+            <!-- Script for hamburger icon End -->
+        <!-- Nav End -->
+          
+        <!-- Recipe Start -->
+        <div class="recipe">
+            <h1 class="recipe-title">Chicken Fried Rice</h1>
+            <p>A tasty and satisfying one-pot meal that's perfect for using up leftover rice.</p>
+            <img src="/5.1 Home/assests/friedchicken.jpeg" alt="Chicken Fried Rice" class="recipe-image">
+        
+            <table class="prep-time">
+              <tr>
+                <th>Prep Time</th>
+                <th>Cook Time</th>
+                <th>Total Time</th>
+              </tr>
+              <tr>
+                <td>10 minutes</td>
+                <td>15 minutes</td>
+                <td>25 minutes</td>
+              </tr>
+              <tr>
+                <th>Amount Served</th>
+                <th></th>
+                <th></th>
+              </tr>
+              <tr>
+                <td>4-6 servings</td>
+                <td></td>
+                <td></td>
+              </tr>
+            </table>
+        
+            <h2 class="Equipment">Equipment Needed:</h2>
+            <ul class="recipe-tools">
+              <li>Large skillet or wok</li>
+              <li>Spatula or wooden spoon</li>
+              <li>Bowl</li>
+            </ul>
+        
+            <div class="ingredients-section">
+              <h2 class="ingredients-title">Ingredients:</h2>
+              <ul class="recipe-ingredients">
+                <li>3 cups cooked white rice</li>
+                <li>2 tbsp vegetable oil</li>
+                <li>1 lb boneless, skinless chicken breasts, cut into bite-sized pieces</li>
+                <li>2 garlic cloves, minced</li>
+                <li>1 cup frozen peas and carrots</li>
+                <li>1/2 cup diced onion</li>
+                <li>2 eggs, lightly beaten</li>
+                <li>3 tbsp soy sauce</li>
+                <li>2 tbsp oyster sauce</li>
+                <li>1 tsp sesame oil</li>
+                <li>1/4 tsp black pepper</li>
+                <li>Optional garnishes: sliced scallions, chopped cilantro</li>
+              </ul>
+            </div>
+        
+            <h2 class="recipe-section-title">Instructions:</h2>
+            <ol class="recipe-instructions">
+              <li>Heat the vegetable oil in a large skillet or wok over medium-high heat. Add the chicken and garlic and cook until the chicken is browned and cooked through, about 5-7 minutes.</li>
+              <li>Add the frozen peas and carrots and diced onion to the skillet. Cook for an additional 2-3 minutes, or until the vegetables are tender.</li>
+              <li>Push the chicken and vegetables to one side of the skillet. Add the beaten eggs to the other side and scramble them until cooked through.</li>
+              <li>Add the cooked rice to the skillet and stir to combine with the chicken, vegetables, and eggs.</li>
+              <li>In a small bowl, whisk together the soy sauce, oyster sauce, sesame oil, and black pepper. Pour the sauce over the rice mixture and stir until everything is evenly coated.</li>
+              <li>Cook for an additional 2-3 minutes, or until the rice is heated through and everything is well combined.</li>
+              <li>Remove from heat and garnish with sliced scallions and chopped cilantro, if desired. Serve hot.</li>
+            </ol>
+          </div>
+        <!-- Recipe end -->
+    </body>
+</html>

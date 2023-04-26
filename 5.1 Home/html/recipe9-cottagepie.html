@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/5.1 Home/css/main.css">
+
+
+    </head>
+
+    <body>
+
+        <!-- Nav Start -->
+        <div class="nav" id="myTopnav">
+          <!-- Add logo image -->
+            <img src="/5.1 Home/assests/newlogo.png" alt="Logo">
+            <a href="#home" class="hidden"></a> 
+            <a href="#home" class="hidden"></a> 
+            <!-- Hidden button to push down home link on the 
+            dropdown menu as made logo bigger-->
+
+            <!-- Add Home and Categories links -->
+            <a href="./index.html" class="button">Home</a>
+            <a href="./catergories.html" class="button">Categories</a>
+  
+            <!-- <div class="search-container">
+                <input type="text" placeholder="Search For Recipes" id="search-input">
+                <button type="button" id="search-button">Search</button>
+            </div> 
+            Planned to make a search button but didnt have enough time-->
+
+            <!-- Add hamburger icon for responsive design -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+        <!-- Script for hamburger icon  Start-->
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "nav") {
+                x.className += " responsive";
+              } else {
+                x.className = "nav";
+              }
+            }
+            </script>
+            <!-- Script for hamburger icon End -->
+        <!-- Nav End -->
+        
+        <!-- Recipe Start -->
+        <div class="recipe">
+            <h1 class="recipe-title">Cottage Pie</h1>
+            <p>Classic British dish made with ground beef and mashed potatoes.</p>
+            <img src="/5.1 Home/assests/cottagepie.jpg" alt="Cottage Pie" class="recipe-image">
+        
+            <table class="prep-time">
+              <tr>
+                <th>Prep Time</th>
+                <th>Cook Time</th>
+                <th>Total Time</th>
+              </tr>
+              <tr>
+                <td>30 minutes</td>
+                <td>1 hour 15 minutes</td>
+                <td>1 hour 45 minutes</td>
+              </tr>
+              <tr>
+                <th>Amount Served</th>
+                <th></th>
+                <th></th>
+              </tr>
+              <tr>
+                <td>6-8 people</td>
+                <td></td>
+                <td></td>
+              </tr>
+            </table>
+        
+            <h2 class="Equipment">Equipment Needed:</h2>
+            <ul class="recipe-tools">
+              <li>Large pot</li>
+              <li>Large skillet</li>
+              <li>Baking dish</li>
+              <li>Potato masher</li>
+            </ul>
+        
+            <div class="ingredients-section">
+              <h2 class="ingredients-title">Ingredients:</h2>
+              <ul class="recipe-ingredients">
+                <li>2 lbs ground beef</li>
+                <li>1 onion, chopped</li>
+                <li>2 garlic cloves, minced</li>
+                <li>2 carrots, peeled and chopped</li>
+                <li>2 celery stalks, chopped</li>
+                <li>1 cup frozen peas</li>
+                <li>2 tbsp tomato paste</li>
+                <li>1 tbsp Worcestershire sauce</li>
+                <li>2 cups beef broth</li>
+                <li>2 tbsp cornstarch</li>
+                <li>2 tbsp water</li>
+                <li>4 cups mashed potatoes</li>
+                <li>1 cup shredded cheddar cheese</li>
+              </ul>
+            </div>
+        
+            <h2 class="recipe-section-title">Instructions:</h2>
+            <ol class="recipe-instructions">
+              <li>Preheat the oven to 375°F (190°C).</li>
+              <li>In a large skillet over medium heat, cook the ground beef until browned and cooked through, breaking it up with a wooden spoon as it cooks. Drain any excess fat.</li>
+              <li>Add the onion, garlic, carrots, and celery to the skillet. Cook until the vegetables are softened.</li>
+              <li>Add the frozen peas, tomato paste, Worcestershire sauce, and beef broth to the skillet. Stir to combine.</li>
+              <li>In a small bowl, whisk together the cornstarch and water. Add the mixture to the skillet and stir until the sauce has thickened.</li>
+              <li>Transfer the beef mixture to a large baking dish. Spread the mashed potatoes over the top of the beef mixture.</li>
+              <li>Sprinkle the shredded cheddar cheese over the mashed potatoes.</li>
+              <li>Bake the cottage pie in the preheated oven for 30-35 minutes, or until the cheese is melted and the filling is bubbly.</li>
+              <li>Remove from the oven and let cool for a few minutes before serving.</li>
+            </ol>
+        <!-- Recipe end -->
+    </body>
+</html>

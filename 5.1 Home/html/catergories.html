@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Egg Categories</title>
+	<link rel="stylesheet" type="text/css" href="/5.1 Home/css/main.css">
+</head>
+<body>
+	<main>
+        <!-- Nav Start -->
+        <div class="nav" id="myTopnav">
+			<!-- Add logo image -->
+			  <img src="/5.1 Home/assests/newlogo.png" alt="Logo">
+			  <a href="#home" class="hidden"></a> 
+			  <a href="#home" class="hidden"></a> 
+			  <!-- Hidden button to push down home link on the 
+			  dropdown menu as made logo bigger-->
+  
+			  <!-- Add Home and Categories links -->
+			  <a href="./index.html" class="button">Home</a>
+			  <a href="./catergories.html" class="button">Categories</a>
+	
+			  <!-- <div class="search-container">
+				  <input type="text" placeholder="Search For Recipes" id="search-input">
+				  <button type="button" id="search-button">Search</button>
+			  </div> 
+			  Planned to make a search button but didnt have enough time-->
+  
+			  <!-- Add hamburger icon for responsive design -->
+			  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+		  </div>
+  
+		  <!-- Script for hamburger icon  Start-->
+		  <script>
+			  function myFunction() {
+				var x = document.getElementById("myTopnav");
+				if (x.className === "nav") {
+				  x.className += " responsive";
+				} else {
+				  x.className = "nav";
+				}
+			  }
+			  </script>
+			  <!-- Script for hamburger icon End -->
+		  <!-- Nav End -->
+
+
+        <!-- Category Start -->
+		<h2 class="categories-heading">Egg Categories</h2>
+		<div class="categories-container">
+			<!-- Pancakes Recipe -->
+			<a href="/5.1 Home/html/recipe6-pancakes.html" class="category">
+				<img src="/5.1 Home/assests/pancake.jpg" alt="Pancakes" class="category-image">
+				<h3 class="category-title">Panacakes</h3>
+			</a>
+			<!-- Omlet Recipe -->
+			<a href="/5.1 Home/html/recipe4-omlet.html" class="category">
+				<img src="/5.1 Home/assests/omlet.jpg" alt="Omlet" class="category-image">
+				<h3 class="category-title">Omlet</h3>
+			</a>
+			<!-- Scrambled Eggs Recipe -->
+			<a href="/5.1 Home/html/recipe5-scrambledeggs.html" class="category">
+				<img src="/5.1 Home/assests/scrambledeggs.jpg" alt="Scrambled Eggs" class="category-image">
+				<h3 class="category-title">Scrambled Eggs</h3>
+			</a>
+
+		</div>
+        <!-- Category End -->
+
+        <!-- Category Start -->
+        <h2 class="categories-heading">Chicken</h2>
+		<div class="categories-container">
+			<!-- Chicken Soup Recipe -->
+			<a href="/5.1 Home/html/recipe1-chickensoup.html" class="category">
+				<img src="/5.1 Home/assests/chickensoup.jpg" alt="Chick Soup" class="category-image">
+				<h3 class="category-title">Chicken Soup</h3>
+			</a>
+			<!-- Fried Chicken Recipe -->
+			<a href="/5.1 Home/html/recipe2-friedchicken.html" class="category">
+				<img src="/5.1 Home/assests/friedchicken.jpeg" alt="Fried Chicken" class="category-image">
+				<h3 class="category-title">Fried Chicken</h3>
+			</a>
+			<!-- Chicken Fried Rice Recipe -->
+			<a href="/5.1 Home/html/recipe3-chickenrice.html" class="category">
+				<img src="/5.1 Home/assests/chickenfriedrice.jpg" alt="Chicken Fried Rice" class="category-image">
+				<h3 class="category-title">Chicken Fried Rice</h3>
+			</a>
+
+			</a>
+		</div>
+        <!-- Category End -->
+
+        <!-- Category Start -->
+        <h2 class="categories-heading">Other Recipes</h2>
+		<div class="categories-container">
+			<!-- Bacon Bolognese Recipe -->
+			<a href="/5.1 Home/html/recipe7-baconbol.html" class="category">
+				<img src="/5.1 Home/assests/baconbol.jpeg" alt="Bacon Bolognese" class="category-image">
+				<h3 class="category-title">Bacon Bolognese</h3>
+			</a>
+			<!-- Cottage Pie Recipe -->
+			<a href="/5.1 Home/html/recipe9-cottagepie.html" class="category">
+				<img src="/5.1 Home/assests/cottagepie.jpg" alt="Cottage Pie" class="category-image">
+				<h3 class="category-title">Cottage Pie</h3>
+			</a>
+			<!-- Lasagna Recipe -->
+			<a href="/5.1 Home/html/recipe8-lasagna.html" class="category">
+				<img src="/5.1 Home/assests/Lasagna.jpg" alt="Lasagna" class="category-image">
+				<h3 class="category-title">Lasagna</h3>
+			</a>
+		</div>
+        <!-- Category End -->
+	</main>
+</body>
+</html>
